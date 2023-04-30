@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./static/global_login.css" />
+    <link rel="stylesheet" href="./static/index_bazaar.css" />
+
+    <!-- Bootstrap -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;1,600;1,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Junge:wght@400&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,800;1,900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank Ruhl Libre:wght@700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Adamina:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap" />
+</head>
+
+<body>
+    <div class="bg-item"></div>
+    <!-- <img class="bg-child" alt="" src="./static/rectangle-106.svg" /> -->
+    <div class="bg-inner"></div>
+
+    <div class="container">
+
+        <!-- <img class="vector-icon" alt="" src="./static/vector21.svg" height=19 width=18 />
+        <img class="vector-icon1" alt="" src="./static/vector31.svg" /> -->
+
+        <form action="/bazaar" , method="POST" class="m-4" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputName" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputProductName" class="form-label">Product Name</label>
+                <input type="text" class="form-control" id="exampleInputProductName" name="productname" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputDescription" class="form-label">Description</label>
+                <textarea class="form-control" id="exampleInputDescription" name="description" rows="5"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPrice" class="form-label">Price</label>
+                <input type="number" class="form-control" id="exampleInputPrice" name="price" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputImage" class="form-label">Image</label>
+                <input type="file" class="form-control" id="exampleInputImage" name="image" accept='image/*' required>
+            </div>
+            <button type="submit" class="btn btn-primary">List</button>
+            {% if feedback is defined%}
+            <div class="alert alert-success">
+                {{feedback}}
+            </div>
+            {% endif %}
+        </form>
+
+    </div>
+    <div class="footer">
+        <div class="footer-child"></div>
+        <div class="mentastic-all-right">
+            © 2021 Mentastic. All Right Reserved
+        </div>
+        <div class="menu"><a class="nav-link" href="/men">
+                <button class="trends">Men</button></a><a class="nav-link" href="/trends"><button
+                    class="trends">Trends</button></a><a class="nav-link" href="/contact"><button class="trends">Contact
+                    US</button></a><a class="nav-link" href="/faq"><button class="trends">FAQ</button></a>
+        </div <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+            integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+            integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

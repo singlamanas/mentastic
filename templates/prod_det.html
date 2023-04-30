@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="/static/global_prod_det.css" />
+    <link rel="stylesheet" href="/static/index_prod_det.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@200;400;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;0,800;1,600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Frank Ruhl Libre:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Junge:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Adamina:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    {% for user in users %}
+    <div class="product-detail">
+      <img class="product-detail-child" alt="" src="{{user.image}}" />
+
+      <div class="product-detail-inner">
+        <div class="frame-wrapper">
+          <div class="frame-wrapper">
+            <div class="frame-wrapper">
+              <div class="frame-parent">
+                <div class="morgan-parent">
+                  <div class="morgan">{{user.name}}</div>
+                  <div class="mrp-275-parent">
+                    <div class="morgan">MRP: ₹{{user.or_price}}</div>
+                    <div class="morgan">Price: ₹{{user.price}}*</div>
+                    <div class="morgan">You Save : ₹{{user.or_price-user.price}}({{user.discount}}%)</div>
+                    <div class="incl-local-tax">
+                      incl. local Tax & Shipping.
+                    </div>
+                  </div>
+                </div>
+                <div class="discription">Discription:</div>
+                <div class="sleek-and-timeless">
+                  {{user.description}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="product-detail-item"></button>
+      <a class ="nav-link"href ="/after_order">
+      <button class="buy-now">Buy Now</button></a>
+      <div class="frame-group">
+        <div></div>
+        <b class="morgan">About:</b>
+        <img class="frame-child" alt="" src="./static/vector-1.svg" />
+      </div>
+      <div class="sleek-and-timeless1">
+        {{user.about}}
+      </div>{% endfor %} 
+      <img class="group-icon" alt="" src="./static/group-9.svg" />
+
+      <img class="vector-icon" alt="" src="./static/vector-4.svg" />
+
+      <img class="product-detail-child1" alt="" src="./static/vector-41.svg" />
+
+      <img class="product-detail-child2" alt="" src="./static/vector-41.svg" />
+
+      <div class="group-div">
+        <div class="group-child"></div>
+      </div><a class ="nav-link"href ="/homepage">
+      <button class="mentastic">Mentastic</button></a><a class ="nav-link"href ="/account">
+      <button class="ram">{{ram}}</button></a>
+      <div class="line-div"></div>
+      
+    </div>
+  </body>
+</html>

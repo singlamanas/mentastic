@@ -1,0 +1,457 @@
+.payment-settings-child,
+.payment-settings-item {
+  position: absolute;
+  top: 0;
+  background-color: var(--color-secondary-white);
+  height: 80px;
+}
+.payment-settings-child {
+  left: 0;
+  width: 1440px;
+}
+.payment-settings-item {
+  right: 76px;
+  width: 1280px;
+}
+.mentastic {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 35px;
+  right: 1215px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-gray-800);
+  text-align: left;
+  width: 150px;
+  height: 50px;
+}
+.payment-settings-inner {
+  position: absolute;
+  top: 270px;
+  left: -2px;
+  width: 102px;
+  height: 550px;
+}
+.rectangle-div,
+.rectangle-icon {
+  position: absolute;
+  top: 127px;
+  left: 75px;
+  width: 286px;
+  height: 83px;
+}
+.rectangle-div {
+  top: 218px;
+  left: 73px;
+  background-color: var(--color-secondary-white);
+  width: 289px;
+  height: 383px;
+}
+.icon-cart,
+.icon-person {
+  position: absolute;
+  height: 0.85%;
+  width: 1.89%;
+  top: 14.93%;
+  right: 91.72%;
+  bottom: 84.22%;
+  left: 6.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-person {
+  height: 0.68%;
+  width: 1.11%;
+  top: 17.95%;
+  right: 92.29%;
+  bottom: 81.37%;
+  left: 6.6%;
+}
+.account-settings1,
+.my-orders {
+  position: absolute;
+  display: inline-block;
+}
+.my-orders {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 241px;
+  left: 134px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inria-sans);
+  color: var(--color-black);
+  text-align: left;
+  width: 171px;
+  height: 39px;
+}
+.account-settings1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.account-settings {
+  position: absolute;
+  top: 362px;
+  left: 133px;
+  width: 244px;
+  height: 46px;
+}
+.logout {
+  margin: 0;
+}
+.account-settings3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inria-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.account-settings2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 519px;
+  left: 134px;
+  width: 243px;
+  height: 35px;
+}
+.cart {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.my-wishlist,
+.payment-settings1,
+.personal-information {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 301px;
+  left: 134px;
+  width: 202px;
+  height: 46px;
+}
+.payment-settings1,
+.personal-information {
+  top: 416px;
+  left: 133px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 193px;
+  height: 23px;
+}
+.payment-settings1 {
+  top: 459px;
+  left: 134px;
+  width: 202px;
+  height: 39px;
+}
+.line-icon,
+.payment-settings-child1 {
+  position: absolute;
+  top: 281px;
+  left: 75px;
+  width: 284px;
+  height: 2px;
+}
+.payment-settings-child1 {
+  top: 345px;
+  left: 74px;
+}
+.payment-settings-child2,
+.payment-settings-child3 {
+  position: absolute;
+  top: 498px;
+  left: 73px;
+  width: 284px;
+  height: 2px;
+}
+.payment-settings-child3 {
+  top: 553px;
+  left: 74px;
+}
+.all-inbox-icon,
+.icon-log-out {
+  position: absolute;
+  top: 237px;
+  left: 95px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.icon-log-out {
+  height: 0.98%;
+  width: 1.46%;
+  top: 25.46%;
+  right: 91.94%;
+  bottom: 73.56%;
+  left: 6.6%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.user {
+  position: absolute;
+  top: 145px;
+  left: 153px;
+  font-size: var(--font-size-21xl);
+  color: #fefbfb;
+  display: inline-block;
+  width: 152px;
+  height: 50px;
+}
+.rectangle-button {
+  background-color: var(--color-gainsboro);
+  top: 578px;
+  left: 844px;
+  border-radius: var(--br-3xl);
+  width: 202px;
+  height: 76px;
+}
+.pay-now,
+.payment-settings-child4,
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.pay-now {
+  background-color: transparent;
+  top: 594px;
+  left: 853px;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-adamina);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 168px;
+  height: 21px;
+}
+.payment-settings-child4 {
+  background-color: var(--color-gainsboro);
+  top: 127px;
+  left: 416px;
+  border-radius: var(--br-3xl);
+  width: 251px;
+  height: 44px;
+}
+.add-debitcredit-card,
+.upi-id {
+  position: absolute;
+  left: 431px;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-adamina);
+  display: inline-block;
+}
+.add-debitcredit-card {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 141px;
+  color: var(--color-black);
+  text-align: left;
+  width: 220px;
+  height: 29px;
+}
+.upi-id {
+  top: 439px;
+  width: 128px;
+  height: 33px;
+}
+.payment-settings-child5,
+.rectangle-input {
+  border: 0;
+  position: absolute;
+  left: 410px;
+  border-radius: var(--br-2xl);
+  width: 320px;
+  height: 42px;
+}
+.rectangle-input {
+  background-color: transparent;
+  top: 259px;
+}
+.payment-settings-child5 {
+  background-color: var(--color-gainsboro);
+  top: 477px;
+}
+.vector-icon,
+.vector-icon1 {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  width: 26.5px;
+  height: 29.33px;
+}
+.vector-icon1 {
+  top: 5.17px;
+  height: 1px;
+}
+.vector-icon2,
+.vector-parent {
+  position: absolute;
+  top: 10.83px;
+  left: 6.58px;
+  width: 12.33px;
+  height: 6.67px;
+}
+.vector-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 6.83px;
+  left: 0;
+  width: 25.5px;
+  height: 28.33px;
+}
+.cart-child,
+.icon {
+  position: absolute;
+  top: 0;
+  left: 19.75px;
+  width: 16px;
+  height: 16px;
+}
+.icon {
+  top: 5px;
+  left: 25.75px;
+  width: 4px;
+  height: 6px;
+}
+.cart1,
+.footer-child {
+  position: absolute;
+  top: 31px;
+  left: 1067px;
+  width: 35.75px;
+  height: 35.17px;
+}
+.footer-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-primary-brown);
+  width: 1440px;
+  height: 248px;
+}
+.men,
+.mentastic-all-right {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-lato);
+  color: var(--color-secondary-white);
+  display: inline-block;
+}
+.mentastic-all-right {
+  font-size: var(--font-size-sm);
+  position: absolute;
+  top: 183px;
+  left: 423px;
+  line-height: 32px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 327px;
+  opacity: 0.67;
+}
+.men {
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: left;
+}
+.footer,
+.menu {
+  position: absolute;
+}
+.menu {
+  top: 105px;
+  left: 395px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.footer {
+  top: 1797px;
+  left: 4px;
+  width: 1440px;
+  height: 248px;
+}
+.payment-settings-child6 {
+  position: absolute;
+  top: 203px;
+  left: 416px;
+  width: 370px;
+  height: 207px;
+  object-fit: cover;
+}
+.manas {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  font-size: var(--font-size-16xl);
+  display: inline-block;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  width: 158px;
+  height: 74px;
+}
+.manas-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 39px;
+  left: 1178px;
+  width: 150px;
+  height: 78px;
+}
+.payment-settings {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 2050px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-sans);
+}

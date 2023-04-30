@@ -1,0 +1,167 @@
+.footer,
+.menu {
+  position: absolute;
+}
+.menu {
+  top: 100px;
+  left: 550px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-26xl);
+}
+.footer {
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  height: 248px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-primary-brown);
+  width: 100%;
+  height: 248px;
+}
+.mentastic-all-right {
+  position: absolute;
+  top: 154px;
+  left: 550px;
+  line-height: 32px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 327px;
+  opacity: 100%;
+  color: grey;
+}
+.trends {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: var(--font-lato);
+  color: var(--color-secondary-white);
+  text-align: left;
+  display: inline-block;
+}
+.bg-child1, .bg-inner {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: linear-gradient(0deg, #d3a17e, rgba(211, 161, 126, 0));
+  width: 425px;
+  height: 100%;
+  opacity: 0.34;
+  z-index: -1;
+}
+
+.bg-item {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  left: -1px;
+  background-color: var(--color-primary-lightbrown);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-primary-lightbrown);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.bg-child {
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  width: fit-content;
+  height: 100%;
+  z-index: -1;
+}
+.container {
+  top : 100px;
+}
+.vector-icon,
+.vector-icon1 {
+  position: absolute;
+  height: 28px;
+  width: 29px;
+  top:58px ;
+  right: 90.39%;
+  bottom: 66.93%;
+  left: 100px;
+  max-width: 100%;
+  
+  max-height: 100%;
+}
+.vector-icon1 {
+
+  top: 140px;
+  right: 88.36%;
+  bottom: 24.53%;
+  
+}
+.btn-primary {
+    position:absolute;
+    top: 350px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn {
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-family: ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5;
+    --bs-btn-color: var(--bs-body-color);
+    --bs-btn-bg: transparent;
+    --bs-btn-border-width: var(--bs-border-width);
+    --bs-btn-border-color: transparent;
+    --bs-btn-border-radius: var(--bs-border-radius);
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(0, 0, 0, 0.075);
+    --bs-btn-disabled-opacity: 0.65;
+    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    color: var(--bs-btn-color);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    background-color: var(--bs-btn-bg);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-label {
+    font-weight: bold;
+}

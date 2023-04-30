@@ -1,0 +1,378 @@
+.mentastic {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 41px;
+  right: 1230px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-gray-800);
+  text-align: left;
+  width: 150px;
+  height: 50px;
+}
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-primary-brown);
+  width: 1440px;
+  height: 248px;
+}
+.men,
+.mentastic-all-right {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-lato);
+  color: var(--color-secondary-white);
+  display: inline-block;
+}
+.mentastic-all-right {
+  font-size: var(--font-size-sm);
+  position: absolute;
+  top: 174px;
+  left: 477px;
+  line-height: 32px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 327px;
+  opacity: 0.67;
+}
+.men {
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: left;
+}
+.menu {
+  top: 55px;
+  left: 462px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.footer,
+.manas,
+.menu {
+  position: absolute;
+}
+.footer {
+  top: 1797px;
+  left: 4px;
+  width: 1440px;
+  height: 248px;
+}
+.manas {
+  top: 18px;
+  left: 10px;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.manas-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 39px;
+  left: 1207px;
+  width: 150px;
+  height: 78px;
+}
+.faqs-wrapper,
+.faqs1 {
+  position: absolute;
+  top: 16px;
+  left: 123px;
+}
+.faqs-wrapper {
+  top: 156px;
+  left: 468px;
+  border-radius: var(--br-xs);
+  background-color: #f3f3f3;
+  width: 504px;
+  height: 166px;
+  font-size: 98px;
+  color: #163b45;
+  font-family: var(--font-inter);
+}
+.faqs-child {
+  position: absolute;
+  top: 470px;
+  left: 60px;
+  width: 1320px;
+  height: 122px;
+}
+.faqs-child2,
+.faqs-inner,
+.faqs-item,
+.rectangle-icon {
+  position: absolute;
+  top: 1151px;
+  left: 57px;
+  width: 1320px;
+  height: 122px;
+}
+.faqs-child2,
+.faqs-inner,
+.rectangle-icon {
+  top: 1491px;
+}
+.faqs-child2,
+.rectangle-icon {
+  top: 810px;
+  left: 60px;
+}
+.faqs-child2 {
+  top: 591px;
+}
+.faqs-child3,
+.faqs-child4,
+.faqs-child5,
+.faqs-child6 {
+  position: absolute;
+  top: 1272px;
+  left: 57px;
+  width: 1320px;
+  height: 151px;
+}
+.faqs-child4,
+.faqs-child5,
+.faqs-child6 {
+  top: 1612px;
+  height: 143px;
+}
+.faqs-child5,
+.faqs-child6 {
+  top: 931px;
+  left: 60px;
+  height: 122px;
+}
+.faqs-child6 {
+  height: 160px;
+}
+.a,
+.a1,
+.a2,
+.a3,
+.q,
+.q1,
+.q2,
+.q3 {
+  position: absolute;
+  line-height: 72px;
+  display: inline-block;
+  height: 73px;
+}
+.q {
+  top: 490px;
+  left: 97px;
+  color: var(--color-primary-brown);
+  width: 80px;
+}
+.a,
+.a1,
+.a2,
+.a3,
+.q1,
+.q2,
+.q3 {
+  top: 615px;
+  left: 107px;
+  width: 70px;
+}
+.a1,
+.a2,
+.a3,
+.q1,
+.q2,
+.q3 {
+  top: 975px;
+  left: 94px;
+}
+.a2,
+.a3,
+.q1,
+.q2,
+.q3 {
+  top: 1296px;
+  left: 97px;
+}
+.a3,
+.q1,
+.q2,
+.q3 {
+  top: 1636px;
+  height: 74px;
+}
+.q1,
+.q2,
+.q3 {
+  top: 1171px;
+  left: 94px;
+  color: var(--color-primary-brown);
+  width: 80px;
+  height: 73px;
+}
+.q2,
+.q3 {
+  top: 1511px;
+  height: 74px;
+}
+.q3 {
+  top: 835px;
+  left: 97px;
+  height: 73px;
+}
+.faqs-child7,
+.faqs-child8,
+.line-div {
+  position: absolute;
+  top: 589.5px;
+  left: 57.5px;
+  border-right: 5px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 5px;
+  height: 127px;
+}
+.faqs-child7,
+.faqs-child8 {
+  top: 1270.5px;
+  left: 54.5px;
+  height: 155px;
+}
+.faqs-child8 {
+  top: 1610.5px;
+  height: 147px;
+}
+.line-icon {
+  position: absolute;
+  top: 935.36px;
+  left: 57px;
+  width: 8px;
+  height: 155.56px;
+}
+.faqs-child10,
+.faqs-child11,
+.faqs-child12,
+.faqs-child9 {
+  position: absolute;
+  top: 467.5px;
+  left: 57.5px;
+  border-right: 5px solid var(--color-primary-brown);
+  box-sizing: border-box;
+  width: 5px;
+  height: 127px;
+}
+.faqs-child10,
+.faqs-child11,
+.faqs-child12 {
+  top: 1148.5px;
+  left: 54.5px;
+}
+.faqs-child11,
+.faqs-child12 {
+  top: 1488.5px;
+}
+.faqs-child12 {
+  top: 810.5px;
+  left: 57.5px;
+}
+.what-are-the {
+  margin: 0;
+}
+.what-are-the-container {
+  position: absolute;
+  top: 509px;
+  left: 214px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-primary-brown);
+  text-align: center;
+  display: inline-block;
+  width: 1065px;
+  height: 109px;
+}
+.we-offer-all {
+  position: absolute;
+  top: 613px;
+  left: 210px;
+  font-size: 28px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 1137px;
+  height: 77px;
+  opacity: 0.32;
+}
+.generally-your-items,
+.what-is-the {
+  position: absolute;
+  left: 214px;
+  display: inline-block;
+}
+.what-is-the {
+  top: 844px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-primary-brown);
+  width: 753px;
+  height: 55px;
+}
+.generally-your-items {
+  top: 949px;
+  font-size: var(--font-size-11xl);
+  width: 1155px;
+  height: 125px;
+}
+.can-i-return {
+  position: absolute;
+  top: 1185px;
+  left: 214px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.you-can-always {
+  position: absolute;
+  top: 1286px;
+  left: 211px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 1125px;
+}
+.is-my-personal {
+  position: absolute;
+  top: 1525px;
+  left: 214px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.we-are-100 {
+  position: absolute;
+  top: 1622px;
+  left: 214px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 1166px;
+}
+.faqs {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 2050px;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--color-darkgray);
+  font-family: var(--font-adamina);
+}

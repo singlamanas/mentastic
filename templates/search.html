@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./static/global_search.css" />
+    <link rel="stylesheet" href="./static/index_search.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;1,600;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,800;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Adamina:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Junge:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Frank Ruhl Libre:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="search">
+      <img class="search-child" alt="" src="./static/rectangle-1.svg" /><button
+        class="mentastic"
+      >
+        Mentastic
+      </button>
+      <div class="search-item"></div>
+      <div class="search-inner"></div>
+      <div class="new-collection">
+        <!-- <div class="new-collection-child"></div> -->
+        <!-- <img class="image-icon" alt="" src="./static/shampoo.png" /> -->
+        <div class="cardnewcollection"><a class ="nav-link"href ="/product1">
+          <button class="image" id="image"> <img class="image-icon" alt="" src="./static/shampoo.png" /> </button
+          ><button class="cardnewcollection-child"></button></a>
+          <div class="long-sleeve">Shampoo</div>
+        </div>
+        <div class="cardnewcollection1">
+          <img class="image-icon" alt="" src="./static/face.png" width=303.54 height=499.51 /><a class ="nav-link"href ="/product6">
+          <button class="image1"></button>
+          <div class="cardnewcollection-item"></div>
+          <div class="long-sleeve1">Facewash</div></a>
+        </div><a class ="nav-link"href ="/product3">
+        <button class="cardnewcollection2">
+          <img class="image-icon" alt="" src="./static/cardnewcollection2@3x.png" width=303.54 height=499.51 />
+          <div class="cardnewcollection-item"></div>
+          <div class="long-sleeve2">trimmer</div></button
+        ></a><a class ="nav-link"href ="/product5"><button class="cardnewcollection3">
+          <!-- <button class="image2"></button> -->
+          <img class="image-icon" alt="" src="./static/nackl.png" width=303.54 height=499.51 />
+          <!-- <div class="cardnewcollection-item"></div> -->
+          <div class="long-sleeve2">Chain</div></button></a>
+          <!-- <button class="rectangle-button"></button> -->
+          <!--  <div class="long-sleeve3">PENDANT</div> -->
+          </button><a class ="nav-link"href ="/product4">
+        <button class="cardnewcollection4">
+          <img class="image-icon" alt="" src="./static/image4@3x.png" width=303.54 height=499.51 />
+          <!-- <button class="image3"><img src="./static/cardnewcollection1@3x.png" /></button> -->
+        </button></a>
+        <button class="rectangle-button"></button>
+          <div class="long-sleeve4"></div><a class ="nav-link"href ="/product2">
+        <button class="cardnewcollection5">
+          <img class="image-icon" alt="" src="./static/image0.png" width=303.54 height=499.51 />
+          <button
+            class="rectangle-button"
+          ></button>
+          <div class="long-sleeve5"></div>
+          </button
+        ></a><button class="new-collection-item"></button>
+        <div class="watch">watch</div><a class ="nav-link"href ="/product5">
+        <button class="new-collection-inner"></button></a>
+        <div class="pendent">Rings and Chains</div>
+      </div><a class ="nav-link"href ="/product2">
+      
+      <button class="search-child1">
+        <div class="perfume">perfume</div>
+      </button></a>
+      <div class="footer">
+        <div class="footer-child"></div>
+        <textarea class="mentastic-all-right" readonly>
+© 2023 Mentastic. All Right Reserved</textarea
+        >
+        <div class="menu">
+          <button class="men">Men</button><button class="men">Trends</button
+          ><button class="men">Contact US</button
+          ><button class="men">FAQ</button>
+        </div>
+      </div>
+      <div class="search1">
+        <div class="rectangle-div"></div>
+        <button class="all-categories-parent">
+          <b class="all-categories">All categories</b
+          ><img
+            class="ic-chevron-down-icon"
+            alt=""
+            src="./static/icchevrondown.svg"
+          />
+        </button>
+        <div class="line-div"></div><form method="post" action="{{ url_for('search') }}">
+        <input class="search-products-categories" type="text" name="query" placeholder="Enter here, what you want to buy" ><button type="submit">Search</button></form>
+        <!-- <input class="search-products-categories" type="text" name="query" placeholder="Enter here, what you want to buy" ><button type="submit">Search</button></form> -->
+        <img
+          class="ic-actions-search-icon"
+          alt=""
+          src="./static/icactionssearch.svg"
+        />
+      </div>
+      <button class="mansa">{{ram}}</button>
+    </div>
+
+    <script>
+      var image = document.getElementById("image");
+      if (image) {
+        image.addEventListener("click", function (e) {
+          window.location.href = "./product-list.html";
+        });
+      }
+      </script>
+  </body>
+</html>

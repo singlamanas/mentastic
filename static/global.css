@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  /* padding: 50px; /* Add 20 pixels of padding on all sides of the body element */
+  border: 1px solid black; 
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-junge: Junge;
+  --font-lato: Lato;
+  --font-inter: Inter;
+  --font-frank-ruhl-libre: "Frank Ruhl Libre";
+  --font-inria-serif: "Inria Serif";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-29xl: 48px;
+  --font-size-sm: 14px;
+  --font-size-49xl: 68px;
+  --font-size-21xl: 40px;
+  --font-size-mini: 15px;
+  --font-size-23xl: 42px;
+
+  /* Colors */
+  --color-secondary-white: #fff;
+  --color-black: #000;
+  --color-primary-dark-brown: #34251f;
+  --color-primary-lightbrown: #eeddcc;
+  --color-accent-red: #c20a0a;
+  --color-primary-brown: #413531;
+
+  /* Gaps */
+  --gap-26xl: 45px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+
+  /* border radiuses */
+  --br-11xs: 2px;
+  --br-7xs: 6px;
+}
+@media only screen and (min-width: 768px) {
+  body {
+      visibility: inherit;}}
+  /* styles for screens smaller than 768px */
+

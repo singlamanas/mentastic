@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./static/global_cart.css" />
+    <link rel="stylesheet" href="./static/index_cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;1,600;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Adamina:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,800;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Junge:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Atkinson Hyperlegible:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Frank Ruhl Libre:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="cart">
+      <div class="cart-child"></div>
+      <div class="cart-item"></div><a class ="nav-link"href ="/homepage">
+      <button class="mentastic" id="mentastic">Mentastic</button> </a>
+      <div class="cart-inner">
+        <button class="group-wrapper">
+          <button class="rectangle-wrapper">
+            <button class="group-child"></button>
+          </button>
+        </button>
+      </div>
+      <img
+        class="rectangle-icon"
+        alt=""
+        src="./static/rectangle-51@2x.png"
+        id="rectangleImage"
+      />
+      <div class="rectangle-div"></div>
+      <img class="icon-person" alt="" src="./static/-icon-person.svg" /><img
+        class="icon-cart"
+        alt=""
+        src="./static/-icon-cart.svg"
+      /><a class ="nav-link"href ="/cart">
+
+      <button class="my-orders" id="mYORDERS">MY ORDERS</button></a>
+      <div class="account-settings">
+        <div class="account-settings1">ACCOUNT SETTINGS</div>
+      </div><a class ="nav-link"href ="/homepage">
+      <button class="account-settings2">
+        <div class="account-settings3">
+          <p class="logout">LOGOUT</p>
+        </div></button
+      ></a><a class ="nav-link"href ="/cart"><button class="my-wishlist"><div class="cart1">CART</div></button
+      ></a><button class="personal-information" id="personalInformation">
+        Personal Information</button
+      ><button class="payment-settings">Payment Settings</button
+      ><img class="line-icon" alt="" src="./static/line-5.svg" /><img
+        class="cart-child1"
+        alt=""
+        src="./static/line-5.svg"
+      /><img class="cart-child2" alt="" src="./static/line-5.svg" /><img
+        class="cart-child3"
+        alt=""
+        src="./static/line-5.svg"
+      /><img class="all-inbox-icon" alt="" src="./static/all-inbox.svg" /><img
+        class="icon-log-out"
+        alt=""
+        src="./static/-icon-log-out.svg"
+      /><button class="user">USER</button>
+      <div class="cart-child4"></div>
+      <div class="cart-child5"></div>
+      <div class="cart-child6"></div>
+      <div class="cart-child5"></div>
+
+      {% for user in users %}
+      
+      <div class="vector-parent">
+        <img class="frame-child" alt="" src="./static/vector-1.svg" /><img
+          class="frame-item"
+          alt=""
+          src="./static/vector-2.svg"
+        /><img class="frame-inner" alt="" src="./static/vector-31.svg" /><img class="ellipse-icon" alt="" src="./static/ellipse-5.svg" /><img
+          class="frame-child1"
+          alt=""
+          src="./static/ellipse-5.svg"
+        /><button class="button">+</button><button class="button1">-</button
+        ><button class="sneil-perfume-120ml-container">
+          <p class="sneil-perfume">{{user.name}}</p>
+          <p class="ml">120ML</p>
+          <p class="ml"> {{user.description}}[0:15]</p>
+        </button>
+        <div class="div">₹{{user.price}}*</div>
+        <div class="off">You Save : ₹{{user.or_price-user.price}}({{user.discount}}%) off</div>
+        <div class="div1">₹{{user.or_price}}</div>
+        <div class="remove">REMOVE</div>
+        <div class="line-div"></div>
+        <input class="rectangle-input" type="text" />
+        <div class="div2">3</div>
+        <img
+          class="unsplashpotcpe-cw8a-icon"
+          alt=""
+          src="{{user.image}}"
+        />
+      </div>
+      {% endfor %}
+      <div class="vector-group">
+        <img class="frame-child" alt="" src="./static/vector-1.svg" /><img
+          class="frame-item"
+          alt=""
+          src="./static/vector-2.svg"
+        /><img class="frame-inner" alt="" src="./static/vector-31.svg" /><img class="ellipse-icon" alt="" src="./static/ellipse-5.svg" /><img
+          class="frame-child1"
+          alt=""
+          src="./static/ellipse-5.svg"
+        /><button class="button">+</button><button class="button1">-</button
+        ><button class="sneil-perfume-120ml-container">
+          <p class="sneil-perfume">Rolex</p>
+          <p class="ml">3 years warrenty</p>
+          <p class="ml"> A Swiss luxury watch manufacturer</p>
+        </button>
+        <div class="div">₹ 3,999</div>
+        <div class="off">20% off</div>
+        <div class="div1">₹5000</div>
+        <div class="remove1">REMOVE</div>
+        <div class="line-div"></div>
+        <input class="rectangle-input" type="text" />
+        <div class="div2">1</div>
+        <img
+          class="unsplashpotcpe-cw8a-icon1"
+          alt=""
+          src="./static/image4@3x.png"
+        />
+      </div>
+      <div class="price-details">Price Details</div>
+      <div class="price">Price</div>
+      <div class="discount">Discount</div>
+      <div class="delivery-charges">Delivery Charges</div>
+      <div class="total-amount">Total Amount</div>
+      <img class="cart-child8" alt="" src="./static/line-19.svg" /><img
+        class="cart-child9"
+        alt=""
+        src="./static/line-19.svg"
+      /><img class="cart-child10" alt="" src="./static/line-19.svg" /><img
+        class="cart-child11"
+        alt=""
+        src="./static/line-19.svg"
+      />
+      <div class="footer">
+        <div class="footer-child"></div>
+        <textarea class="mentastic-all-right" readonly>
+© 2023 Mentastic. All Right Reserved</textarea
+        >
+        <div class="menu">
+          <a class ="nav-link"href ="/men">
+          <button class="men" id="men">Men</button
+          ></a><a class ="nav-link"href ="/trends"><button class="men" id="trends">Trends</button
+          ></a><a class ="nav-link"href ="/contact"><button class="men">Contact US</button
+          ></a><a class ="nav-link"href ="/faq"><button class="men">FAQ</button></a>
+        </div>
+      </div>
+      <div class="vector-container">
+        <img class="frame-child" alt="" src="./static/vector-1.svg" /><img
+          class="frame-item"
+          alt=""
+          src="./static/vector-2.svg"
+        /><img class="frame-inner" alt="" src="./static/vector-31.svg" /><img class="ellipse-icon" alt="" src="./static/ellipse-5.svg" /><img
+          class="frame-child1"
+          alt=""
+          src="./static/ellipse-5.svg"
+        /><button class="button">+</button><button class="button1">-</button>
+        <div class="nt8gexzwl-1"></div>
+        <button class="sneil-perfume-120ml-container2">
+          <p class="sneil-perfume"> dress pants</p>
+          <p class="ml">Inseam length </p>
+          <p class="ml">Spanish clothing and accessories: ZARA</p>
+        </button>
+        <div class="div">₹ 1,999</div>
+        <div class="off">25% off</div>
+        <div class="div1">₹2499</div>
+        <button class="remove2">REMOVE</button>
+        <div class="line-div"></div>
+        <input class="rectangle-input" type="text" />
+        <div class="div2">1</div>
+        <img
+          class="unsplashpotcpe-cw8a-icon2"
+          alt=""
+          src="./static/image11@2x.png"
+        />
+      </div><a class ="nav-link"href ="/account">
+      <button class="manas" id="manas">Manas</button
+      ></a><button class="rectangle-button"></button
+      ><a class ="nav-link"href ="/payment"><button class="place-order">Place Order</button></a>
+    </div>
+
+    <script>
+      var mentastic = document.getElementById("mentastic");
+      if (mentastic) {
+        mentastic.addEventListener("click", function (e) {
+          window.location.href = "./mentastic.html";
+        });
+      }
+      
+      var rectangleImage = document.getElementById("rectangleImage");
+      if (rectangleImage) {
+        rectangleImage.addEventListener("click", function (e) {
+          window.location.href = "./user-account.html";
+        });
+      }
+      
+      var mYORDERS = document.getElementById("mYORDERS");
+      if (mYORDERS) {
+        mYORDERS.addEventListener("click", function (e) {
+          window.location.href = "./my-orders.html";
+        });
+      }
+      
+      var personalInformation = document.getElementById("personalInformation");
+      if (personalInformation) {
+        personalInformation.addEventListener("click", function (e) {
+          window.location.href = "./user-account.html";
+        });
+      }
+      
+      var men = document.getElementById("men");
+      if (men) {
+        men.addEventListener("click", function (e) {
+          window.location.href = "./men.html";
+        });
+      }
+      
+      var trends = document.getElementById("trends");
+      if (trends) {
+        trends.addEventListener("click", function (e) {
+          window.location.href = "./trending.html";
+        });
+      }
+      
+      var manas = document.getElementById("manas");
+      if (manas) {
+        manas.addEventListener("click", function (e) {
+          window.location.href = "./user-account.html";
+        });
+      }
+      </script>
+  </body>
+</html>
